@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding:  0;
+}
+
+nav {
+    display:  flex;
+    height:  40px;
+    justify-content:  space-between;
+    background-color: #f02f7b;
+}
+
+.brand {
+    padding: 10px;
+    color: #3f0093;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sub-nav {
+    display: flex;
+}
+
+.sub-nav li {
+    list-style: none;
+    padding: 10px;
+    color: #fefefe;
+}
+
+.sub-nav li:hover {
+    color: #3f0093;
+}
